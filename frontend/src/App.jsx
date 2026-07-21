@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
 // Grab the backend URL from Vercel environment variables or fallback to local
-const API_URL = import.meta.env.VITE_API_URL || 'https://localized-wildlife-edge-ai-classifier.onrender.com';
-
+const API_URL = 'https://localized-wildlife-edge-ai-classifier.onrender.com';
 export default function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [preview, setPreview] = useState(null);
