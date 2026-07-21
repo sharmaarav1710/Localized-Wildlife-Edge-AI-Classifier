@@ -1,11 +1,13 @@
 import os
 import shutil
-from fastapi import FastAPI, File, UploadFile
-from fastapi.middleware.cors import CORSMiddleware
 from src.predict import run_edge_inference
 
-app = FastAPI(title="Wildlife Classifier API")
+from fastapi import FastAPI, File, UploadFile  # Added File and UploadFile here
+from fastapi.middleware.cors import CORSMiddleware
 
+app = FastAPI()
+
+# Enable CORS for all origins (allows Vercel frontend to connect)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
