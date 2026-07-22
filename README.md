@@ -21,3 +21,4 @@ We used Generative AI Assistance when we were working on this project. We got he
 * Code. Debugging: They wrote the versions of the scripts to export to ONNX and to make PyTorch use less space.
 
 *. Structuring: They helped us make a plan. Organize the technical overview of the project analyze how well it works and set up the README. We used Generative AI Assistance to make these things better.
+
