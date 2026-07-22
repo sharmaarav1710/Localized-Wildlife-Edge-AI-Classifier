@@ -1,14 +1,13 @@
 Localized Wildlife & Agricultural Edge-AI Classifier
 
 Project Overview
+This project addresses the problem of tracking and identifying the invasive species and the agricultural diseases in limited resources scenarios. Through connecting deep learning to edge devices, this site allows offline and real-time classification for farmers and conservationists.
 
-This project takes the challenge of monitoring invasive species and agricultural diseases in resource constrained environments. By bridging the gap between deep learning and edge hardware, this website enables offline, real-time classification for farmers and conservationists.
+The project utilizes a complete pipeline framework:
 
-The project is built on an end-to-end pipeline:
+Automatic web scraping of scientific-grade images from iNaturalist for localized dataset creation.
 
-Automated scraping of research grade imagery from iNaturalist to build localized datasets.
-
-Implementation of INT8 dynamic quantization, reducing storage requirements and optimizing CPU latency.
+Utilizes INT8 dynamic quantization that saves storage space and decreases CPU latency.
 
 [Benchmark Comparison](benchmark_comparison.png)
 
